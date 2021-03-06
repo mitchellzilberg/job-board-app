@@ -48,7 +48,7 @@ function App() {
   return (
     <>
       <header className="bg-indigo-100 mb-12">
-        <img className="w-full" src="/images/bg-header-desktop.svg" alt="bg-img" />
+        <img className="w-full" src="https://mitchellzilberg.github.io/job-board-app/images/bg-header-desktop.svg" alt="bg-img" />
       </header>
       <div className="container m-auto">
         {
