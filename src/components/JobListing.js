@@ -1,4 +1,5 @@
 import React from 'react'; 
+import data from '../data.json';
 
 const JobListing = ({job: {
     logo, company, isNew, featured, position, role, level, postedAt, contract, location, languages, tools
@@ -20,7 +21,7 @@ const JobListing = ({job: {
     featured && 'border-l-4 border-indigo-300 border-solid'
   } lg:flex-row lg:my-4`}>
     <div>
-      <img className="-mt-12 mb-4 w-20 h-20 lg:mt-0 lg:h-24 lg:w-24 lg:my-0"  src="https://mitchellzilberg.github.io/job-board-app/{logo}" alt={company} />
+      <img className="-mt-12 mb-4 w-20 h-20 lg:mt-0 lg:h-24 lg:w-24 lg:my-0"  src={logo} alt={company} />
     </div>
     <div className="flex flex-col justify-between ml-3">
       <h3 className="font-bold text-md text-indigo-400">  {company} 
