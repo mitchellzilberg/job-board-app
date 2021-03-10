@@ -1,5 +1,4 @@
 import React from 'react'; 
-import data from '../data.json';
 
 const JobListing = ({job: {
     logo, company, isNew, featured, position, role, level, postedAt, contract, location, languages, tools
